@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+
+  
+  "description": "servidor web proyecto individual ADSO 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Daniel Banquet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
