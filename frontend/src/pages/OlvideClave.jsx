@@ -12,7 +12,7 @@ const OlvideClave = () => {
         <TextField id="outlined-basic" label="Correo" type="email" variant="standard" />
          <br />
          <br/>
-         <button> ENVIAR</button>
+         <button id='ilc'> ENVIAR</button>
          <br/>
         </form>
   

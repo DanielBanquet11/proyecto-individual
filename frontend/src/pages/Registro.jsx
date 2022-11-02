@@ -9,22 +9,22 @@ const Registro = () => {
         <form className="f2">
         <PersonAddIcon sx={{ fontSize:90 }}/>
         <h1>REGISTRO</h1>
-        <TextField id="outlined-basic" label="Usuario" variant="standard" /> 
+        <TextField id="outlined-basic" label="Usuario" variant="standard" required /> 
                 <br />
                 <br />
-                <TextField id="outlined-basic" label="Dirección" variant="standard" /> 
+                <TextField id="outlined-basic" label="Dirección" variant="standard" required/> 
                 <br />
                 <br />
-                <TextField id="outlined-basic" label="Telefóno" type="number" variant="standard" /> 
+                <TextField id="outlined-basic" label="Telefóno" type="number" variant="standard" required /> 
                 <br />
                 <br />
-                <TextField id="outlined-basic" label="Correo" type="email" variant="standard" /> 
+                <TextField id="outlined-basic" label="Correo" type="email" variant="standard" required/> 
                  <br />
                  <br />
-                 <TextField id="outlined-basic" label="Contraseña" type="password" variant="standard" /> 
+                 <TextField id="outlined-basic" label="Contraseña" type="password" variant="standard" required /> 
                 <br />
                 <br />
-             <button> Register</button>   
+             <button id='ilc' > Register</button>   
              <br/>
 
         </form>

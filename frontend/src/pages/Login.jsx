@@ -12,26 +12,33 @@ const Login = () => {
       <form className=" f1" >
       <AccountCircleIcon sx={{ fontSize:90 }}/>
             <h1>INICIO DE SESION</h1>
-            <TextField id="outlined-basic" label="Usuario" variant="standard" /> 
+            <TextField id="outlined-basic" label="Usuario" variant="standard"  required/> 
               <br />
               <br />
-              <TextField id="outlined-basic" label="Contraseña" type="password" variant="standard" /> 
+              <TextField id="outlined-basic" label="Contraseña" type="password" variant="standard" required /> 
 
            <br />
            <br />
-        <button> INICIAR</button>
+
+        <button id='ilc'> INICIAR</button>
         <br />
         <br />
-       <button>
-       <NavLink to="/registro">
-       <PersonAddIcon sx={{ fontSize:20 }}/>
-       </NavLink></button>
+
+       <button id='BTi'>
+         <NavLink id='inicio'
+            to="/registro">       
+            <PersonAddIcon sx={{ fontSize:20 }}/> 
+        </NavLink>
+       </button>
+       
        
        &nbsp;&nbsp;&nbsp;&nbsp;
-       <button>
-       <NavLink to="/olvide-clave">
-       <HttpsIcon sx={{ fontSize:20 }}/>
-       </NavLink></button>
+       <button id='BTi'>
+        <NavLink id='inicio'
+          to="/olvide-clave">
+          <HttpsIcon sx={{ fontSize:20 }}/> 
+        </NavLink>
+       </button>
        
        
         </form>
